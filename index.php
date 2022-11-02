@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,15 +27,23 @@
       <div class="form-group">
         <label for="exampleFormControlSelect1">Team 1</label>
         <select class="form-control" id="team1">
+        <option value="1">Devasting Donkeys</option>
+					<option value="2">Allegoric Alaskans</option>
+					<option value="3">Blithering Badgers</option>
+          <option value="4">Courageous Californians </option>
         </select>
       </div>
       <div class="form-group">
         <label for="exampleFormControlSelect1">Team 2</label>
         <select class="form-control" id="team2">
+        <option value="1">Devasting Donkeys</option>
+					<option value="2">Allegoric Alaskans</option>
+					<option value="3">Blithering Badgers</option>
+          <option value="4">Courageous Californians </option>
         </select>
       </div> <br>
       <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" value="win" checked>
+        <input class="form-check-input" type="radio" value="win">
         <label class="form-check-label" for="exampleRadios1">
           Win
         </label>
@@ -52,7 +62,7 @@
       </div>
       <br><br>
       <button type="submit" class="btn btn-primary">Submit</button> <br><br>
-      <a href="#">Game Summary</a>
+      <a href="summary.php">Game Summary</a>
     </div>
     
   </form>
